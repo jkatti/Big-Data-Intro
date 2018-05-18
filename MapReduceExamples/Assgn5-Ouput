@@ -1,0 +1,7 @@
+[acadgild@localhost ~]$ hdfs dfs -cat /OUTPUT/part-r-00000
+18/05/19 00:03:11 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Akai	1
+Lava	3
+Onida	3
+Samsung	7
+Zen	2
