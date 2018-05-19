@@ -10,7 +10,7 @@ import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
-public class Assgn5Main {
+public class Assgn7Main {
 
 public static void main(String[] args) throws Exception {
 		
@@ -27,8 +27,8 @@ public static void main(String[] args) throws Exception {
 		job.setOutputValueClass(IntWritable.class);
 	
 		// Set the Mapper and Reducer class files
-		job.setMapperClass(Assgn5Mapper.class);
-		job.setReducerClass(Assgn5Reducer.class);
+		job.setMapperClass(Assgn7Mapper.class);
+		job.setReducerClass(Assgn7Reducer.class);
 		 
 		// Set the overall output format
 		job.setInputFormatClass(TextInputFormat.class);
