@@ -27,9 +27,9 @@ public class Assgn6Main {
 		job.setOutputKeyClass(LongWritable.class);
 		job.setOutputValueClass(Text.class);
 		
-		// Set the Mapper and Reducer class files
+		// Set the Mapper class files. Do not need a reducer class.
 		job.setMapperClass(Assgn6Mapper.class);
-		job.setReducerClass(Assgn6Reducer.class);
+		//job.setReducerClass(Assgn6Reducer.class);
 		
 		// Set the overall output format
 		job.setInputFormatClass(TextInputFormat.class);
