@@ -1,0 +1,12 @@
+Hi, this is a hadoop and spark class.
+This covers hadoop kafka spark pig hive flume etc.
+hadoop is very vast and it's ecosystem contains multiple technologies like
+hive
+pig
+oozie
+yarn
+mapreduce
+flume
+etc.
+
+These are trending technologies in market and most in demand.

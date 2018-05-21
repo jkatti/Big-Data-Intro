@@ -1,0 +1,2 @@
+
+pig -x mapreduce -f wordcount.pig -param file=/PIG/location.csv -param outfile=/PIG/countresult

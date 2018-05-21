@@ -1,0 +1,29 @@
+Hadoop is an open source frame work used for storing & processing large-scale data (huge data sets generally in GBs or TBs or PBs of size) which can be either structured or unstructured format. This vast amount of data is called Big data which usually can’t be processed/handled by legacy data storage mechanisms.
+
+Hadoop is written in java by Apache Software Foundation. Hadoop can easily handle multi tera bytes of data reliably and in fault-tolerant manner.
+
+Hadoop parallelizes the processing of the data on 1000s of computers or nodes in clusters. This frame work uses normal commodity hardware for storing distributed data across various nodes on the cluster.
+
+provides detailed walk through of the Hadoop framework along with all the sub components under Hadoop Frame work.
+
+Hadoop Eco System Core Components:
+
+    Hadoop Common : Common utilities supporting hadoop components
+    HDFS : Hadoop Distributed File System
+    YARN : Frame work for job scheduling and resource management.
+    Map Reduce : Parallel Processing Mechanism for distributed data
+
+The sub components are:
+
+    Hbase : Column Oriented Database for Processing Billions of Records
+    Hive : Data Warehouse for Distributed File System HDFS
+    Pig : High Level Programming Language for Distributed computations
+    Sqoop : Data migration tool from/to RDBMSs to/from HDFS, HBase, Hive
+    Flume : Data Collection mechanism for Log & Event data
+    Oozie : Work Flow Management Service.
+    ZooKeeper : Configuration Management & Coordination Service.
+    Avro : Serialization Framework
+    Tez : Successor for Mapreduce Framework
+    Hcatalog : Common Interface for Hive, Pig, HBase.
+    Azkaban: Workflow management tool. Alternative to Oozie.
+
