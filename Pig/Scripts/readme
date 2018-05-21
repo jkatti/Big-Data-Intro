@@ -1,1 +1,3 @@
-All Pig latin scripts
+This folder has the wordcount.pig script.
+
+Apart from that, I have also uploaded the Tele_analysis.pig  that basically analysis the number of units sold for each company and provides the count.
